@@ -31,6 +31,9 @@ h1 {
 
 #monitor {
     background-image: url(../img/monitor.jpg);
+    background-size: 400px 100px;
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 
 #graph {
