@@ -1,36 +1,36 @@
-#striscia_sup {
+#striscia_sup { /* Sfondo della striscia superiore */
     background-image: url(../img/pattern.png);
     background-color: cornflowerblue;
     background-repeat: repeat;
     background-size: 50%;
 }
 
-#booleaner {
+#booleaner { /* Logo della striscia superiore */
     width: 30%;
     height: auto;
 }
 
-h1 {
+h1 { /* Utile per ingrandire titolo principale */
     font-size: 50px;
 }
 
-.scritta_grigia {
+.scritta_grigia { /* Utile per sottotitolo nell'header e scritta nel footer */
     color: gray;
 }
 
-.scritta_azzurra {
+.scritta_azzurra { /* Utile per sottotitolo nell'header */
     color: rgb(73, 139, 224);
 }
 
-.scritta_evidenziata {
+.scritta_evidenziata { /* Utile per evidenziare scritte negli <span> all'interno dei <p> nel <main> */
     background-color: yellow;
 }
 
-.scritta_bianca {
+.scritta_bianca { /* Utile per <table> nel <main> e <span> nel <footer> */
     color: white;
 }
 
-#monitor {
+#monitor { /* Immagine del monitor nel <footer> */
     height: 200px;
     width: 600px;
     background-image: url(../img/monitor.jpg);
@@ -38,7 +38,7 @@ h1 {
     background-repeat: no-repeat;
 }
 
-#graph {
+#graph { /* Immagine del graph nel <footer> */
     height: 200px;
     width: 600px;
     background-image: url(../img/graph.jpg);
@@ -46,15 +46,15 @@ h1 {
     background-repeat: no-repeat;
 }
 
-.riga_azzurra {
+.riga_azzurra { /* utile per la <table> nel <main> */
     background-color:deepskyblue;
 }
 
-.riga_azzurro_chiara {
+.riga_azzurro_chiara { /* Utile per la <table> nel <main> */
     background-color: rgba(140, 242, 255, 0.973);
 }
 
-.scritta_su_img {
+.scritta_su_img { /* Utile per gli <span> nel <footer> */
     font-weight: 700;
     font-size: 30px;
 }
