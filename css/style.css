@@ -1,0 +1,10 @@
+striscia_sup {
+    width: 60px;
+    height: 20px;
+    background-image: url(../img/pattern.png);
+    background-color: cornflowerblue;
+}
+
+h1 {
+    font-size: 40px;
+}
