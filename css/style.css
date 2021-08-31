@@ -1,10 +1,46 @@
-striscia_sup {
-    width: 60px;
-    height: 20px;
+#striscia_sup {
     background-image: url(../img/pattern.png);
     background-color: cornflowerblue;
+    background-repeat: repeat;
+}
+
+#booleaner {
+    width: 30%;
+    height: auto;
 }
 
 h1 {
-    font-size: 40px;
+    font-size: 50px;
+}
+
+.scritta_grigia {
+    color: gray;
+}
+
+.scritta_azzurra {
+    color: rgb(73, 139, 224);
+}
+
+.scritta_evidenziata {
+    background-color: yellow;
+}
+
+.scritta_bianca {
+    color: white;
+}
+
+#monitor {
+    background-image: url(../img/monitor.jpg);
+}
+
+#graph {
+    background-image: url(../img/graph.jpg);
+}
+
+.riga_azzurra {
+    background-color:deepskyblue;
+}
+
+.riga_azzurro_chiara {
+    background-color: rgba(140, 242, 255, 0.973);
 }
