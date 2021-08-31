@@ -2,6 +2,7 @@
     background-image: url(../img/pattern.png);
     background-color: cornflowerblue;
     background-repeat: repeat;
+    background-size: 50%;
 }
 
 #booleaner {
@@ -30,14 +31,19 @@ h1 {
 }
 
 #monitor {
+    height: 200px;
+    width: 600px;
     background-image: url(../img/monitor.jpg);
-    background-size: 400px 100px;
-    background-repeat: no-repeat;
     background-size: contain;
+    background-repeat: no-repeat;
 }
 
 #graph {
+    height: 200px;
+    width: 600px;
     background-image: url(../img/graph.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 .riga_azzurra {
@@ -46,4 +52,9 @@ h1 {
 
 .riga_azzurro_chiara {
     background-color: rgba(140, 242, 255, 0.973);
+}
+
+.scritta_su_img {
+    font-weight: 700;
+    font-size: 30px;
 }
