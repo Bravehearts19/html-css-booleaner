@@ -1,13 +1,13 @@
 #striscia_sup { /* Sfondo della striscia superiore */
     background-image: url(../img/pattern.png);
-    background-color: cornflowerblue;
+    background-color: cornflowerblue; /* #5f9afe codice colore corretto */
     background-repeat: repeat;
     background-size: 50%;
 }
 
 #booleaner { /* Logo della striscia superiore */
-    width: 30%;
-    height: auto;
+    width: 30%; /* 250px */
+    height: auto; /* auto si può evitare perchè è di default */
 }
 
 h1 { /* Utile per ingrandire titolo principale */
@@ -17,6 +17,11 @@ h1 { /* Utile per ingrandire titolo principale */
 .scritta_grigia { /* Utile per sottotitolo nell'header e scritta nel footer */
     color: gray;
 }
+
+/* a {
+    color: rgb(73, 139, 224);
+    text-decoration: none;
+} */
 
 .scritta_azzurra { /* Utile per sottotitolo nell'header */
     color: rgb(73, 139, 224);
@@ -58,3 +63,8 @@ h1 { /* Utile per ingrandire titolo principale */
     font-weight: 700;
     font-size: 30px;
 }
+
+/* table {
+    border-collapse: collapse;
+    text-align: left;
+} */ /* per tenere unita la tabella */

@@ -30,15 +30,16 @@
                 Internet deve essere al servizio del "bene pubblico": il manifesto di Tim Berners-Lee
             </h1>
 
-            <h2 class="scritta_grigia">Scritto da <span class="scritta_azzurra">The Booleaner</span></h2>
+            <h2 class="scritta_grigia">Scritto da <span class="scritta_azzurra">The Booleaner</span></h2> <!-- probabilmente lo span è un link ovvero <a> e nell'href posso usare "#" -->
 
-            <h3 class="scritta_grigia">il 10/10/2020</h3>
+            <h3 class="scritta_grigia">il 10/10/2020</h3> <!-- <small> scrive un testo un po' più piccolo del normale -->
             <!-- Fine Titolo e sottotitolo -->
 
             <!-- Inizio Foto + didascalie -->
             <figure>
                 <img src="img/tim-1.jpg" alt="Tim Berners-Lee 1">
                 <img src="img/tim-2.jpg" alt="Tim Berners-Lee 2">
+
                 <figcaption>1st Photo: John S. and James L. Knight Foundation, by Scott Henrichsen
                     <br>
                             2nd Photo: Wikimedia, by Paul Clarke
@@ -49,11 +50,11 @@
 
         <main>
             <!-- Inizio paragrafo scritto -->
-            <section>
+            <section> <!-- meglio div e non section -->
                 <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                     Dicta cupiditate dolore ducimus doloribus aperiam impedit reiciendis eveniet voluptas est illum, 
-                    <span class="scritta_evidenziata">
+                    <span class="scritta_evidenziata"> <!-- si può usare il tag mark -->
                         porro itaque quidem ullam pariatur
                     </span> 
                     aut earum ad hic? Temporibus! Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
@@ -91,7 +92,13 @@
             <!-- Inizio tabella -->
             <section>
                 <table>
-                    <thead>
+                    <colgroup> <!-- questo tag non ha effetto grafico immediato ma posso usarlo per giocare sulle dimensioni delle colonne -->
+                        <col>
+                        <col>
+                        <col>
+                    </colgroup>
+
+                    <thead> <!-- potevo usare la classe direttamente sul thead -->
                         <tr class="riga_azzurra">
                             <th><span class="scritta_bianca">Lorem ipsum dolor</span></th>
                             <th><span class="scritta_bianca">Lorem ipsum dolor</span></th>
